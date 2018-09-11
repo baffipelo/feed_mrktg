@@ -1,0 +1,216 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1c8d7d21432f8136d3b1afe3d86763a2",
+    "content-hash": "a7b267a2c55e7a3a87c909191d7937f2",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WPBP/installers.git",
+                "reference": "fd18141e0c8e405f7dc482862ecc7c56a299f39c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WPBP/installers/zipball/fd18141e0c8e405f7dc482862ecc7c56a299f39c",
+                "reference": "fd18141e0c8e405f7dc482862ecc7c56a299f39c",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "AGL",
+                "Aimeos",
+                "AnnotateCms",
+                "Attogram",
+                "Bitrix",
+                "CakePHP",
+                "Chef",
+                "Cockpit",
+                "CodeIgniter",
+                "Craft",
+                "Croogo",
+                "DokuWiki",
+                "Dolibarr",
+                "Drupal",
+                "Elgg",
+                "ExpressionEngine",
+                "FuelPHP",
+                "Grav",
+                "Hurad",
+                "ImageCMS",
+                "Joomla",
+                "Kohana",
+                "Laravel",
+                "Lithium",
+                "MODULEWork",
+                "MODX Evo",
+                "Magento",
+                "Mako",
+                "Mautic",
+                "MediaWiki",
+                "Moodle",
+                "OXID",
+                "PPI",
+                "Piwik",
+                "Plentymarkets",
+                "Puppet",
+                "RadPHP",
+                "ReIndex",
+                "Roundcube",
+                "SMF",
+                "SilverStripe",
+                "TYPO3",
+                "Thelia",
+                "WolfCMS",
+                "WordPress",
+                "YAWIK",
+                "Zend",
+                "Zikula",
+                "concrete5",
+                "installer",
+                "phpBB",
+                "shopware",
+                "symfony"
+            ],
+            "support": {
+                "source": "https://github.com/WPBP/installers/tree/v1.1.0"
+            },
+            "time": "2016-08-18 13:35:37"
+        },
+        {
+            "name": "idct/composer-custom-directory",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ideaconnect/composer-custom-directory.git",
+                "reference": "02535879a79c368f2d388949051388df10353ddd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ideaconnect/composer-custom-directory/zipball/02535879a79c368f2d388949051388df10353ddd",
+                "reference": "02535879a79c368f2d388949051388df10353ddd",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "*",
+                "php": ">=5.4"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Composer\\CustomDirectoryInstaller\\LibraryPlugin"
+                ],
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\CustomDirectoryInstaller": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bartosz Pacholek",
+                    "email": "bartosz@ideaconnect.pl"
+                }
+            ],
+            "description": "A composer plugin, to install differenty types of composer packages in custom directories outside the default composer default installation path which is in the `vendor` folder.",
+            "keywords": [
+                "composer",
+                "composer-installer",
+                "composer-plugin"
+            ],
+            "time": "2015-02-11 12:25:24"
+        },
+        {
+            "name": "nathanielks/wp-admin-notice",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:nathanielks/wordpress-admin-notice.git",
+                "reference": "725be033c572973f770e8c5cc3cc15f9a30d8cc1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": ""
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Nathaniel Schweinberg",
+                    "email": "nathaniel@fightthecurrent.org",
+                    "homepage": "http://fightthecurrent.org"
+                }
+            ],
+            "description": "A simple class for displaying admin notices in the WordPress admin.",
+            "homepage": "https://gist.github.com/nathanielks/8910601.git",
+            "time": "2015-07-24 17:42:13"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "idct/composer-custom-directory": 20,
+        "nathanielks/wp-admin-notice": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
+}
