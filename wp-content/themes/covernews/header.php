@@ -13,11 +13,20 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
+	<meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	
     <link rel="profile" href="http://gmpg.org/xfn/11">
-
-    <?php wp_head(); ?>
+	
+	<?php wp_head(); ?>
+	<!-- <meta property="og:title" content="Тестовая запись" />	 -->
+	<!-- <meta property="og:description" content="Тестовая запись" /> -->
+	<?PHP if (is_single()): ?>
+           <meta property="og:image" content="<?php echo get_the_post_thumbnail_url() ?>" />		
+    <?php endif; ?>
+    
+	
+    
 </head>
 
 <body <?php body_class(); ?>>
